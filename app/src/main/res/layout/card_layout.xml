@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/rounded_background"
+    android:elevation="4dp">
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:layout_marginEnd="16dp"
+android:src="@drawable/common_full_open_on_phone"
+android:scaleType="centerCrop"
+    />
+
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+    android:orientation="vertical">
+
+<TextView
+android:id="@+id/textBrand"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Brand: "
+android:textSize="18sp"
+    android:textColor="@color/colorPrimaryDark"
+    android:textStyle="bold"
+    />
+
+<TextView
+android:id="@+id/textModel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Model: "
+android:textSize="16sp"
+    android:textColor="@android:color/black"
+    />
+
+<TextView
+android:id="@+id/textPrice"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Price: "
+android:textSize="16sp"
+    android:textColor="@android:color/black"
+    />
+
+    </LinearLayout>
+
+<Button
+android:id="@+id/viewCarButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="8dp"
+android:background="@color/colorAccent"
+    android:text="View Car"
+    android:textColor="@android:color/white"
+    android:textAllCaps="false"
+    />
+    </LinearLayout>
